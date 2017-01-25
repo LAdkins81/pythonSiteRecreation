@@ -32,10 +32,11 @@ img{
 .yellow{
   color: yellow;
 }
-box{
-  margin: 25px;
+#box{
+  margin-left: 150px;
   background-color: #444444;
-  padding: 15px 35px;
+  padding: 15px 25px 15px 10px;
+  width: 250px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #1E1E1E;
 }
