@@ -1,0 +1,132 @@
+body{
+  width: 1200px;
+  font-family: sans-serif;
+}
+header{
+  background-color: #254076;
+  display: inline-block;
+  width: 1200px;
+}
+img{
+  width: 450px;
+  height: 150px;
+  vertical-align: top;
+  margin-top: 25px;
+  margin-right: 250px;
+  display: inline-block;
+}
+#tophead{
+  display: inline-block;
+  vertical-align: top;
+  width: 450px;
+  text-align: right;
+  padding: 5px;
+}
+.minibar{
+  text-align: right;
+  color: white;
+  margin-right: 25px;
+  font-size: 12px;
+  padding: 15px;
+}
+.yellow{
+  color: yellow;
+}
+box{
+  margin: 25px;
+  background-color: #444444;
+  padding: 15px 35px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #1E1E1E;
+}
+button{
+  background-color: #265175;
+  color: white;
+  border-radius: 5px;
+}
+#navbar{
+  text-align: center;
+  background-color: #3C79AD;
+  margin: 50px 120px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #1F2428;
+}
+#navbar ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 15px 15px;
+}
+#navbar a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+.headerbox{
+  display: inline-block;
+  width: 450px;
+  text-align: center;
+  padding: 15px 70px;
+  vertical-align: top;
+  color: white;
+}
+.headerbox ul li{
+  list-style-position: inside;
+  list-style-type: none;
+}
+.headerbox ul li:before{
+  content: "\00BB \0020";
+  color: yellow;
+}
+.headerbox ul li a{
+  color: white;
+}
+.headerbox p{
+  font-size: 12px;
+}
+.headerbox h3{
+  color: yellow;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerbox h2{
+  font-weight: normal;
+  font-size: 16px;
+}
+.articlebox{
+  display: inline-block;
+  width: 450px;
+  font-size: 12px;
+  text-align: center;
+  border-top: 3px solid #73A7D5;
+  vertical-align: top;
+  padding: 15px;
+  margin: 15px 50px 15px 50px;
+}
+.articlebox ul li{
+  list-style-position: inside;
+  list-style: square;
+}
+.articlebox a{
+  color: #73A7D5;
+}
+footer{
+  text-align: center;
+  color: #DCDCDC;
+  height: 150px;
+}
+footer ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  padding-top: 80px;
+}
+.fader{
+  background: #245177;
+  background: -webkit-linear-gradient(#245177, #3273AA);
+  background:    -moz-linear-gradient(#245177, #3273AA);
+  background:         linear-gradient(#245177, #3273AA);
+}
+footer p{
+  font-size: 8px;
+}
